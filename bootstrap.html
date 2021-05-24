@@ -1,18 +1,45 @@
 <html>
 <head>
+<!--bootstrap-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+<!--stylesheet-->
 <link rel="stylesheet" href="bootstrap.css">
+
+<!--google font for h1-->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@300&display=swap" rel="stylesheet"><!--heading h1 style-->
+
+
+<!--google fonts for total body of the website-->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+<!--google fonts for the brand name-->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu&display=swap" rel="stylesheet">
+
+
+<!--font awesome-->
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
 </head>
-<body> 
+<body>
+    
+    
+    <!--title-->
+
+
     <section id="title">
         <div class ="container-fluid"> <!-- by using "contsiner" we see the space difference in the 
                                        website i.e the content in the container itself mergrs to half screen..
                                         >>by using "container-fluid" we see that the content in the "content-fluid" 
-                                        can be arranged to full screen itself. this is the main difference we see in the "container" and "container-fluid". -->
+                                        can be arranged to full screen itself. this is the main difference we see 
+                                        in the "container" and "container-fluid". -->
         <!--navigation bar-->
     <nav class="navbar navbar-expand-lg navbar-dark ">
-        <a class="navbar-brand" href="">Shootlens</a>
+        <a class="navbar-brand" href="">tindog</a>
        
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,13 +50,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="" >Hiii</a>
+                <a class="nav-link" href="" >Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="" >hlo</a>
+                <a class="nav-link" href="" >Pricing</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="" >hwru</a>
+                <a class="nav-link" href="" >Download</a>
             </li>
             </ul>
          </div>
@@ -39,15 +66,81 @@
     <div class="row">
     <div class="col-lg-6">
          <h1>Hiii This is raghavendra<br> Here we know about ideas.</h1>
-         <button type="button">download</button>
-         <button type="button">download</button>
+         <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>Download</button>
+         <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i>Download</button>
     </div>
    <div class="col-lg-6">
-       <img src="abc.jpg" alt ="raghav">
+       <img class="title-image" src="iphone6.png" alt ="raghav">
    </div>
    </div>
 </div>
-
 </section>  
+
+
+<!--features-->
+
+
+<section id="features">
+    <div class="row">
+
+    <div class="feature-box col-lg-4">
+        <i class="icons fas fa-check-circle fa-4x"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+    </div>
+    <div class="feature-box col-lg-4">
+        <i class="icons fas fa-bullseye fa-4x"></i>
+        <h3>Elite clientele</h3>
+        <p>We have all the dogs, the greatest dogs.</p>
+    </div>
+    <div class="feature-box col-lg-4">
+        <i class="icons fas fa-heart fa-4x"></i>
+        <h3>Guaranteed to work.</h3>
+        <p>Find the love of your dog's life of your money back.</p>
+    </div>
+    </div>
+   
+</section>
+ 
+
+<!--testimonial-->
+
+
+<section id="testimonial">
+
+
+    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <h2>"I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof!"</h2>
+           <img class="testimonial-image" src="dog-img.jpg">
+           <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h1>"My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think."</h1>
+            <img class="testimonial-image" src="lady-img.jpg">
+            <em> Beverly, Illinois</em>
+          </div>
+        </div>
+        <a class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" ></span>
+        </a>
+        <a class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" ></span>
+        </a>
+      </div>
+</section>
+
+<!--press-->
+
+
+<section id="press">
+    <img class="press-logo=" src="techcrunch.png" alt="techcrunch-logo">
+    <img class="press-logo"  src="tnw.png" alt="tnw-logo">
+    <img class="press-logo"  src="bizinsider.png" alt="bizinsider-logo">
+    <img class="press-logo"  src="mashable.png" alt="mashable-logo">
+
+
+</section>
 </body>
 </html>
