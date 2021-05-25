@@ -1,29 +1,42 @@
+
 body{
     font-family: "Montserrat";
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    size: 5rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-size: 2.5rem ;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: "Montserrat";  
+    font-size: 1.5rem;
+}
+
+p{
+   color: #8f8f88;
+}
+
 #title{
     background-color: #ff4c68;
     color: #fff;
 }
 
-h1{
 
-    font-family: 'Montserrat', sans-serif;
-    size: 5rem;
-    line-height: 1.5;
-}
-h2{
-    font-family: "Montserrat";
-    font-size: 2.5rem ;
-}
-h3{
-    font-family: "Montserrat";  
-}
-p{
-   color: #8f8f88;
-}
 .container-fluid{
-    padding: 3%  15% 7%;
+    padding: 3%  10% 7%;
 }
 .navbar{
     padding:0 0 4.5rem;
@@ -40,10 +53,13 @@ p{
     font-family: 'Montserrat';
     font-size: 1.2rem;
 }
+
+
 /*download buttons*/
 .download-button {
     margin: 5% 3% 5% 0; /* top, right, left, bottom */
 }
+
 
 /*title image*/
 .title-image {
@@ -133,10 +149,6 @@ right: 30%;
     font-size: 3.5rem;
     line-height: 1.5;
 }
-.download-button{
-    padding: ;
-}
-
 
 /*footer*/
 #footer{
@@ -146,4 +158,7 @@ right: 30%;
 }
 .social-icon{
     margin:20px 10px;
+}
+.raghav p{
+color: green;
 }
