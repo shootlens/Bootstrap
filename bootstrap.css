@@ -10,8 +10,11 @@ a{
 
 h1{
     font-family: 'Montserrat', sans-serif;
-    size: 5rem;
     line-height: 1.5;
+}
+
+.big-heading {
+    font-size: 3.5rem;
 }
 
 h2{
